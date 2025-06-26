@@ -19,13 +19,13 @@ credits: true
 
 <div class="row">
   <div class="col-md-12">
-  <h2>Our Team</h2> 
+  <h2>Founders</h2> 
   </div>
   <div class="col-md-6">
-    {% include feature/card.html text="Dominique Stringer is a project lead for the Homemaking project. She is pursuing a PhD in History at Indiana University. She holds an MA in Museum Studies from the University of Kansas and a BA in Anthropology from Luther College." header="Dominique Stringer - Founder" objectid="demo_004" heading_level="h3" %}
+    {% include feature/card.html text="Dominique Stringer is a PhD student in History at Indiana University-Bloomington. Working in the fields of memory studies, migration studies, and Holocaust studies, Dominique explores the connections between the migration of objects and the migration of people. Her museum practice prioritizes community engagement and curatorial ethics as key tenants for future-oriented museums. She holds an MA in Museum Studies from the University of Kansas and a BA in Anthropology from Luther College. " header="Dominique Stringer" objectid="demo_004" heading_level="h3" %}
   </div>
   <div class="col-md-6">  
-    {% include feature/card.html text="Tyra Kalman is a project lead for the Homemaking project." header="Tyra Kalman - Founder" objectid="demo_004" heading_level="h3" %}
+    {% include feature/card.html text="Tyra Kalman is a project lead for the Homemaking project." header="Tyra Kalman" objectid="demo_004" heading_level="h3" %}
   </div>
 </div>
 

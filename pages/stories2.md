@@ -1,6 +1,6 @@
 ---
-title: Read about the histories of the Jewish community of Kansas. 
-layout: story
+title: Stories
+layout: about
 permalink: /stories.html
 ---
 
@@ -13,7 +13,7 @@ permalink: /stories.html
                      {% include feature/image.html objectid="js_001"%}
                 </div>
                 <div class="mt-2">
-                    {% include feature/button.html text="Learn More" link="socialaid" %}
+                    {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/socialaid.html" %}
                  </div>
             </div>
         </div>
@@ -27,7 +27,7 @@ permalink: /stories.html
                      {% include feature/image.html objectid="js_041"%}
                 </div>
                 <div class="mt-2">
-                    {% include feature/button.html text="Learn More" link="foodways" %}
+                    {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/foodways.html" %}
                  </div>
             </div>
         </div>
@@ -41,7 +41,7 @@ permalink: /stories.html
                      {% include feature/image.html objectid="js_003"%}
                 </div>
                 <div class="mt-2">
-                    {% include feature/button.html text="Learn More" link="lawrence" %}
+                    {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/lawrence.html" %}
                  </div>
             </div>
         </div>
@@ -60,7 +60,7 @@ permalink: /stories.html
                        {% include feature/image.html objectid="js_022"%}
                   </div>
                   <div class="mt-2">
-                      {% include feature/button.html text="Learn More" link="industrialremovaloffice" %}
+                      {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/industrialremovaloffice.html" %}
                    </div>
               </div>
           </div>
@@ -74,7 +74,7 @@ permalink: /stories.html
                        {% include feature/image.html objectid="https://kujewishstudies.ku.edu/sites/jewishstudies/files/styles/wide_col_xl_6/public/images/2024/2310730_MK_CrimsonBlueDay.0001_1.jpg?h=d07d10a6&itok=75V_Hu5a"%}
                   </div>
                   <div class="mt-2">
-                      {% include feature/button.html text="Learn More" link="cemeteries" %}
+                      {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/cemeteries.html" %}
                    </div>
               </div>
           </div>
@@ -83,9 +83,9 @@ permalink: /stories.html
       <div class="col-md-4">
           <div class="card md-4 text-center h-100">
               <div class="card-body">
-                <h2 class="card-title">Social Aid</h2>
+                <h2 class="card-title">Kansas City</h2>
                    <div class="mt-2">
-                       {% include feature/image.html objectid="https://kujewishstudies.ku.edu/sites/jewishstudies/files/styles/wide_col_xl_6/public/images/2024/2310730_MK_CrimsonBlueDay.0001_1.jpg?h=d07d10a6&itok=75V_Hu5a"%}
+                       {% include feature/image.html objectid="js_050"%}
                   </div>
                   <div class="mt-2">
                       {% include feature/button.html text="Learn More" link="socialaid" %}
