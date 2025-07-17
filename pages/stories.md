@@ -88,7 +88,7 @@ permalink: /stories.html
                        {% include feature/image.html objectid="js_050"%}
                   </div>
                   <div class="mt-2">
-                      {% include feature/button.html text="Learn More" link="socialaid" %}
+                      {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/kansascity.html" %}
                    </div>
               </div>
           </div>
