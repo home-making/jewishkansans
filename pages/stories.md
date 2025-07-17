@@ -71,7 +71,7 @@ permalink: /stories.html
               <div class="card-body">
                 <h2 class="card-title">Cemeteries</h2>
                    <div class="mt-2">
-                       {% include feature/image.html objectid="jewishkansas.org/objects/cemeteries_map.png"%}
+                       {% include feature/image.html objectid="https://jewishkansans.org/objects/cemeterymap.png"%}
                   </div>
                   <div class="mt-2">
                       {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/cemeteries.html" %}
