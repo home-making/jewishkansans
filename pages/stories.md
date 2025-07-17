@@ -71,7 +71,7 @@ permalink: /stories.html
               <div class="card-body">
                 <h2 class="card-title">Cemeteries</h2>
                    <div class="mt-2">
-                       {% include feature/image.html objectid="https://kujewishstudies.ku.edu/sites/jewishstudies/files/styles/wide_col_xl_6/public/images/2024/2310730_MK_CrimsonBlueDay.0001_1.jpg?h=d07d10a6&itok=75V_Hu5a"%}
+                       {% include feature/image.html objectid="jewishkansas.org/objects/cemeteries_map"%}
                   </div>
                   <div class="mt-2">
                       {% include feature/button.html text="Learn More" link="https://jewishkansans.org/stories/cemeteries.html" %}
