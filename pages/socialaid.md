@@ -12,6 +12,9 @@ custom-foot: essay/essay-scroll-js.html
  {% include feature/image.html objectid="js_015" width="100" %}
 
 {% include essay/new-section.html visible=true %} 
+
+What does it take to built a support network in a new place? 
+
 # Women-Led Social Aid Organizations 
 
 From the members of the Hebrew Ladies Benevolent Society and the local chapter of the National Council for Jewish Women, to the current participants in the Lawrence Jewish Community Congregation, local Jewish women have played an integral role in creating supportive and welcoming Jewish communities. The often unseen labor of these women has been essential to creating Jewish community in the isolated setting of the Midwest. 
