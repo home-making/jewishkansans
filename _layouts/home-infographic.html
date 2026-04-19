@@ -2,100 +2,38 @@
 # Default home page with boxes providing collection stats
 layout: default
 ---
+<div style="margin-top: 2em;"></div>
 <div class="row">
-
-  <div class="col-md-12 px-4">
-    <h1>Welcome to the Home-Making Project</h1>
-    <p>This digital storytelling project seeks to document and share the diverse experiences of Jewish immigrants in Kansas. The collection is currently focused on the early 20th century. We are particularly interested in sharing stories of how Jewish women contributed to their communities during this time.</p>
+ <div class="col-md-8">
+    {% include feature/image.html objectid="js_037"%}
   </div>
 
-  <div style="margin-top: 6em;"></div>
+ <div class="col-md-4">  
+  <div class="row">
+    <div class="card md-4 text-right">
+      <h4 class="card-title">Contribute</h4>
+                        {% include feature/button.html text="Contribute to the project" link="https://forms.gle/vTYAusAAdwZ1pBkf6" color="primary" centered=true size="lg" %}
+   </div>
+  </div>
 
-    <div class="container-fluid mt-4 mb-n3 bg-light p-4 " id="technical">
-      <div style="padding: 6em 5vw;">
-        <div class="container mt-4 border rounded p-4 bg-white">
-            <div style="margin-top: 2em;"></div>
-            <div class="row g-0">
-              <div class="col-md-6">
-                <div class="card-body">
-                <h4 class="card-title">Hebrew Ladies Benevolent Society</h4>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-              {% include feature/image.html objectid="js_047" %}
-              </div>
-            </div>
-        </div>
-      </div>
+ <div class="card md-4 text-right">
+  <div class="card-body">
+    <h4 class="card-title">Stories</h4>
+       <p>Read more about the Jewish Community of Kansas on our Stories Page</p>
+          <div class="mt-2">
+              {% include feature/button.html text="See the stories" link="https://jewishkansans.org/stories.html" centered=true size="lg" %}
+           </div>
     </div>
-
-  <div style="margin-top: 6em;"></div>
-
-  <div class="col-md-4">
-                <div class="card md-4 text-right">
-
-              
-                <div class="card-body">
-                  <h4 class="card-title">Contribute</h4>
-                    <p>Do you have a photograph or object that relates to the stories of Jewish immigration?</p>
-                      <div class="mt-2">
-                        {% include feature/button.html text="Contribute to the Project" link="https://forms.gle/vTYAusAAdwZ1pBkf6" color="primary" centered=true size="lg" %}
-                     </div>
-                </div>
-                </div>
-
-  </div>
-
-  <div class="col-md-4">
-              <div class="card md-4 text-right">
-                <div class="card-body">
-                  <h4 class="card-title">Read</h4>
-                    <p>Read more about the Jewish Community of Kansas on our Stories Page</p>
-                      <div class="mt-2">
-                        {% include feature/button.html text="See the Stories" link="https://jewishkansans.org/stories.html" centered=true size="lg" %}
-                     </div>
-                </div>
-            </div>
-
-  </div>
-
-  <div class="col-md-4">
-                  <div class="card md-4 text-right">
-              
-                <div class="card-body">
-                  <h4 class="card-title">Explore</h4>
-                    <p>Explore the story of Jewish immigration to Kansas through objects.</p>
-                      <div class="mt-2">
-                        {% include feature/button.html text="Explore the Collection" link="https://jewishkansans.org/browse.html" centered=true size="lg" %}
-                     </div>
-                </div>
-            </div>
-
-  </div>
-
-  <div style="margin-top: 6em;"></div>
-
-  <div class="container-fluid mt-4 mb-n3 bg-light p-4 " id="technical">
-      <div style="padding: 6em 5vw;">
-        <div class="container mt-4 border rounded p-4 bg-white">
-              <div style="margin-top: 2em;"></div>
-              <div class="row g-0">
-                <div class="col-md-6">
-                  {% include feature/image.html objectid="js_037" %}
-                </div>
-                <div class="col-md-6">
-                  <div class="card-body">
-                    <h4 class="card-title">Industrial Removal Office</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  </div>
-                </div>
-            </div>
+   </div>
+<div class="card md-4 text-right">
+  <div class="card-body">
+    <h4 class="card-title">Locations</h4>
+       <p>Explore places significant to the Home-Making Project</p>
+          <div class="mt-2">
+                {% include index/featured-terms.html field="location" btn-color="outline-secondary"%}
           </div>
-    </div>
-  </div>
-
-    <div style="margin-top: 6em;"></div>
-
+   </div>
 </div>
 
+  </div>
+</div>
