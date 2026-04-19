@@ -1,39 +1,53 @@
 ---
 # Default home page with boxes providing collection stats
-layout: default
+layout: page
 ---
-<div style="margin-top: 2em;"></div>
 <div class="row">
- <div class="col-md-8">
+
+  <div class="col-md-8">
     {% include feature/image.html objectid="js_037"%}
+
   </div>
 
- <div class="col-md-4">  
-  <div class="row">
-    <div class="card md-4 text-right">
-      <h4 class="card-title">Contribute</h4>
+  <div class="col-md-4">  
+    
+    <div class="row">
+
+                <div class="card md-4 text-right">
+
+              
+                <div class="card-body">
+                  <h4 class="card-title">Contribute</h4>
+                    <p>Do you have a photograph or object that relates to the stories of Jewish immigration?</p>
+                      <div class="mt-2">
                         {% include feature/button.html text="Contribute to the project" link="https://forms.gle/vTYAusAAdwZ1pBkf6" color="primary" centered=true size="lg" %}
-   </div>
+                     </div>
+                </div>
+            </div>
+
+            <div class="card md-4 text-right">
+
+              
+                <div class="card-body">
+                  <h4 class="card-title">Stories</h4>
+                    <p>Read more about the Jewish Community of Kansas on our Stories Page</p>
+                      <div class="mt-2">
+                        {% include feature/button.html text="See the stories" link="https://jewishkansans.org/stories.html" centered=true size="lg" %}
+                     </div>
+                </div>
+            </div>
+            <div class="card md-4 text-right">
+
+              
+                <div class="card-body">
+                  <h4 class="card-title">Locations</h4>
+                    <p>Explore places significant to the Home-Making Project</p>
+                      <div class="mt-2">
+                        {% include index/featured-terms.html field="location" btn-color="outline-secondary"%}
+                     </div>
+                </div>
+            </div>
+
   </div>
 
- <div class="card md-4 text-right">
-  <div class="card-body">
-    <h4 class="card-title">Stories</h4>
-       <p>Read more about the Jewish Community of Kansas on our Stories Page</p>
-          <div class="mt-2">
-              {% include feature/button.html text="See the stories" link="https://jewishkansans.org/stories.html" centered=true size="lg" %}
-           </div>
-    </div>
-   </div>
-<div class="card md-4 text-right">
-  <div class="card-body">
-    <h4 class="card-title">Locations</h4>
-       <p>Explore places significant to the Home-Making Project</p>
-          <div class="mt-2">
-                {% include index/featured-terms.html field="location" btn-color="outline-secondary"%}
-          </div>
-   </div>
-</div>
-
-  </div>
 </div>
